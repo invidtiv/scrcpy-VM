@@ -36,7 +36,7 @@ scrcpy --no-window-aspect-ratio-lock
 
 To maintain the device aspect ratio (when using `--no-window-aspect-ratio-lock`
 or in fullscreen mode), padding is added around the device. By default, it is
-black.
+dark gray (`#222`).
 
 This can be changed:
 
