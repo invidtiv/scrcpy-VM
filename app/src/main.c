@@ -93,6 +93,8 @@ main_scrcpy(int argc, char *argv[]) {
     ret = scrcpy(&args.opts);
 #endif
 
+    net_cleanup();
+
 end:
     if (args.pause_on_exit == SC_PAUSE_ON_EXIT_TRUE ||
             (args.pause_on_exit == SC_PAUSE_ON_EXIT_IF_ERROR &&
