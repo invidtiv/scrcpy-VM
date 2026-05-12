@@ -112,6 +112,13 @@ Here are just some common examples.
     scrcpy --new-display=1920x1080 --start-app=org.videolan.vlc
     ```
 
+ - Start VLC in a new _flex_ display using H.265 with a bitrate of 16 Mbps,
+   while keeping the display active so it does not turn off:
+
+    ```bash
+    scrcpy --new-display -x --keep-active --start-app=org.videolan.vlc --video-codec=h265 -b16M
+    ```
+
  - Record the device camera in H.265 at 1920x1080 (and microphone) to an MP4
    file:
 
